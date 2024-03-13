@@ -23,7 +23,7 @@ namespace AtYarisi
             pbAt3.Left += rnd.Next(1,10);
 
             #region Ondeki At'ın belirlenmesi
-            PictureBox ondekiAt = pbAt1;
+            PictureBox ondekiAt = pbAt1; // öndeki at
             
             lblFark.Text = Math.Abs(pbBitis.Left - pbAt1.Right).ToString();
 
